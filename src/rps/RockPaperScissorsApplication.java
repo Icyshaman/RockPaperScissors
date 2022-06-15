@@ -110,12 +110,12 @@ public class RockPaperScissorsApplication {
 				case 1: {
 					if (computerChoice == 3) {
 						currentUser.setCurrentScore(currentUser.getCurrentScore() + 1);
-						System.out.println("You won!");
+						System.out.println("You won!, computer selected Scissors");
 					} else if (computerChoice == 2) {
 						currentUser.setCurrentScore(0);
-						System.out.println("Hard Luck, Try Again");
+						System.out.println("Hard Luck, Try Again, computer selected Paper");
 					} else {
-						System.out.println("It's a tie");
+						System.out.println("It's a tie, both selected Rock");
 					}
 					ConsoleControls.holdConsole();
 					break;
@@ -123,12 +123,12 @@ public class RockPaperScissorsApplication {
 				case 2: {
 					if (computerChoice == 1) {
 						currentUser.setCurrentScore(currentUser.getCurrentScore() + 1);
-						System.out.println("You won!");
+						System.out.println("You won!, computer selected Rock");
 					} else if (computerChoice == 3) {
 						currentUser.setCurrentScore(0);
-						System.out.println("Hard Luck, Try Again");
+						System.out.println("Hard Luck, Try Again, computer selected Scissors");
 					} else {
-						System.out.println("It's a tie");
+						System.out.println("It's a tie, both selected Paper");
 					}
 					ConsoleControls.holdConsole();
 					break;
@@ -136,12 +136,12 @@ public class RockPaperScissorsApplication {
 				case 3: {
 					if (computerChoice == 2) {
 						currentUser.setCurrentScore(currentUser.getCurrentScore() + 1);
-						System.out.println("You won!");
+						System.out.println("You won!, computer selected Paper");
 					} else if (computerChoice == 1) {
 						currentUser.setCurrentScore(0);
-						System.out.println("Hard Luck, Try Again");
+						System.out.println("Hard Luck, Try Again, computer selected Rock");
 					} else {
-						System.out.println("It's a tie");
+						System.out.println("It's a tie, both selected Scissors");
 					}
 					ConsoleControls.holdConsole();
 					break;
